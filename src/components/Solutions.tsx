@@ -6,7 +6,7 @@ const Solutions = [
     description:
       "Stop guessing. Let AI predict which leads will convert before your sales team wastes time on dead ends.",
     variant: "dark",
-    icon: "/solutions/swauto.png", // put icon src here
+    icon: "/solutions/swauto.png", 
   },
   {
     title: "AI Solutions",
