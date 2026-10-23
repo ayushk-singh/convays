@@ -48,7 +48,7 @@ const Solutions = [
     description:
       "Stop guessing. Let AI predict which leads will convert before your sales team wastes time on dead ends.",
     variant: "light",
-    icon: "/solutions/bpa.png",
+    icon: "/solutions/bpautomation.png",
   },
   {
     title: "Accounting Software Implementation",
