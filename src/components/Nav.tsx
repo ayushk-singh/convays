@@ -5,17 +5,17 @@ import Image from "next/image";
 import { useState } from "react";
 
 const links = [
-  { name: "Solutions", href: "#solutions" },
-  { name: "Insights", href: "#insights" },
-  { name: "Who We Are", href: "#about" },
-  { name: "Start Here", href: "#start" },
+  { name: "Who We Are", href: "/#who-we-are" },
+  // { name: "Insights", href: "#trusted-by" }, // will add it later 
+  { name: "Solutions", href: "/#solutions" },
+  { name: "Start Here", href: "/contact" },
 ];
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
 
   return (
-    <nav className="relative w-full">
+    <nav className="sticky top-0 z-50 w-full border-b border-white/10 bg-zinc-900/80 backdrop-blur-md">
       <div className="mx-auto flex h-16 max-w-7xl items-center px-6">
         {/* Logo */}
         <Link href="/" className="flex items-center">

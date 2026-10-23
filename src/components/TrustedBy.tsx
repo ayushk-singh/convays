@@ -14,7 +14,7 @@ export default function TrustedBy() {
   const duplicatedLogos = [...logos, ...logos];
 
   return (
-    <section className="w-full bg-zinc-950 py-16">
+    <section id="trusted-by" className="w-full bg-zinc-950 py-16">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <h2 className="mb-12 text-center text-3xl font-extrabold text-white sm:text-4xl">
           Trusted By

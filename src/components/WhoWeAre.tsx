@@ -1,6 +1,6 @@
 export default function WhoWeAre() {
   return (
-    <section className="w-full bg-zinc-950 px-4 py-16 sm:px-6 lg:px-8">
+    <section id="who-we-are" className="w-full bg-zinc-950 px-4 py-16 sm:px-6 lg:px-8">
       <div className="mx-auto max-w-7xl">
         {/* Heading */}
         <h2 className="mb-10 text-center text-3xl font-extrabold text-white sm:text-4xl">
